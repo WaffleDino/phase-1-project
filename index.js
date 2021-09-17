@@ -30,7 +30,7 @@ let init = () => {
       let newSearchResultImage = document.createElement('img')
       newSearchResultImage.className = 'photo'
         if (!searchResultItem.picture) {
-          newSearchResultImage.src = "placeholder.png"
+          newSearchResultImage.src = "./images/placeholder.png"
         } else {
           newSearchResultImage.src = searchResultItem.picture 
         }
